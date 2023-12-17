@@ -14,6 +14,32 @@
   background-color: #f7f7f7;
 }
 
+.start {
+  width: 600px;
+  height: 40px;
+  text-align: centner;
+  margin: auto; 
+  background-color: #f7f7f7;
+}
+
+.btnStart {
+  margin: 0 auto;
+  display: block;
+}
+
+.divJump {
+  width: 600px;
+  height: 40px;
+  text-align: centner;
+  margin: auto; 
+  background-color: #f7f7f7;
+}
+
+.btnJump {
+  margin: 0 auto;
+  display: block;
+}
+
 #dino {
     width: 50px;
     height: 50px;
@@ -23,7 +49,7 @@
     top: 150px;
     transform: scaleX(-1);
   }
-  #cactus {
+  .cactus {
     width: 20px;
     height: 40px;
     background-image: url(../img/cacto.png);
@@ -32,6 +58,16 @@
     top: 110px;
     left: 580px;
     animation: cactusMove 1s infinite linear;
+  }
+
+  .cactusNone {
+    width: 20px;
+    height: 40px;
+    background-image: url(../img/cacto.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;    
   }
   @keyframes cactusMove {
   0% {
